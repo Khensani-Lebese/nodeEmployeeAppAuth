@@ -5,6 +5,7 @@ This repository contains the backend and frontend for the Employee App, where yo
 # Accessing the Backend
 1. Navigate to the /server folder
 To get started with the backend, navigate to the /server folder from your terminal:
+
 `cd server`
 
 # Install Dependencies
