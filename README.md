@@ -11,22 +11,22 @@ To get started with the backend, navigate to the /server folder from your termin
 # Install Dependencies
 Before starting the backend, ensure all dependencies are installed:
 
-npm install
+`npm install`
 
 # Run the Backend Server
 Once dependencies are installed, you can run the backend server using the following command:
 
-npm start
+`npm start`
 
 This will start the server on localhost and you'll be able to access the API and interact with it for managing employee data.
 
 Similarly,For frontend, install dependencies
-npm install
+`npm install`
 
 # Run the Froontend Server
 Once dependencies are installed, you can run the frontend server using the following command:
 
-npm run dev
+`npm run dev`
 
 
 
@@ -54,7 +54,7 @@ Open Firebase Functions in the console (from the left sidebar).
 In your server's Firebase Admin SDK, use the following code to add a custom claim for admin privileges:
 javascript
 
-const admin = require('firebase-admin');
+``const admin = require('firebase-admin');
 admin.initializeApp();
 
 const addAdminRole = (uid) => {
@@ -62,7 +62,7 @@ const addAdminRole = (uid) => {
     .then(() => {
       console.log('User is now an admin:', uid);
     });
-};
+};`` 
 
 Step 5: Test the Admin Role
 Once the custom claims are set, the user will have admin privileges. You can check this by attempting to access admin routes in the app.
