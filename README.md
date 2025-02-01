@@ -62,7 +62,7 @@ const addAdminRole = (uid) => {
     .then(() => {
       console.log('User is now an admin:', uid);
     });
-};```</pre>
+};</pre>
 
 Step 5: Test the Admin Role
 Once the custom claims are set, the user will have admin privileges. You can check this by attempting to access admin routes in the app.
