@@ -23,7 +23,7 @@ This will start the server on localhost and you'll be able to access the API and
 Similarly,For frontend, install dependencies
 `npm install`
 
-# Run the Froontend Server
+# Run the Frontend Server
 Once dependencies are installed, you can run the frontend server using the following command:
 
 `npm run dev`
